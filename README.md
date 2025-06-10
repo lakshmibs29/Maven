@@ -1,17 +1,7 @@
-package noo;
-
-import java.util.ResourceBundle;
-
-public class app {
-public int userLogin(String in_user, String in_pwd)
+public class app
 {
-ResourceBundle rb= ResourceBundle.getBundle("config");
-String userName=rb.getString("username");
-String password=rb.getString("password");
+public static void main(String[] args)
+{
+System.out.println("helllo");
+}}
 
-if (in_user.equals(userName) && in_pwd.equals(password))
-return 1;
-else
-return 0;
-}
-}
